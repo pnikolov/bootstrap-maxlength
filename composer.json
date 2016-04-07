@@ -1,0 +1,19 @@
+{
+  "name": "pnikolov/bootstrap-maxlength",
+  "type": "component",
+  "description": "Wrapper of Bootstrap-maxlenght plugin. This is a jQuery and Bootstrap plugin for character count on inputs.",
+  "homepage": "http://mimo84.github.com/bootstrap-maxlength/",
+  "keywords": ["count", "input", "maxlength", "length", "textarea", "form"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Plamen Nikolov",
+      "email": "plamen@athlonsofia.com",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "components/jquery": ">=1.9.0",
+    "components/bootstrap": ">=3.2.0"
+  }
+}
