@@ -479,7 +479,9 @@
         }
 
         currentInput.on('maxlength.reposition', function () {
-          place(currentInput, maxLengthIndicator);
+          if (maxLengthIndicator) {
+            place(currentInput, maxLengthIndicator);
+          }
         });
 
 
